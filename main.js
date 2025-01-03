@@ -81,11 +81,10 @@ function checkCollision(elementA, elementB) {
 
 function detectCollisions() {
   pipes.forEach((pipe, index) => {
-    if (checkCollision(bird, pipe)) {
-      console.log(`Collision detected with item ${index + 1}`);
+    if (checkCollision(bird, pipe)){
       
-      bird.style.top = '1400px'
       alert('duarrr, scoremu : '+score)
+      bird.style.left = '-1400px'
       location.reload()
     } 
   });
