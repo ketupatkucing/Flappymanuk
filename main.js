@@ -85,7 +85,7 @@ function detectCollisions() {
       console.log(`Collision detected with item ${index + 1}`);
       
       bird.style.top = '1400px'
-      
+      alert('duarrr, scoremu : '+score)
       location.reload()
     } 
   });
